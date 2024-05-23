@@ -1,12 +1,11 @@
 package ru.netology.service;
 
-import org.testng.annotations.Test;
 
-import static org.testng.Assert.assertEquals;
+import static org.junit.Assert.assertEquals;
 
 public class CashbackHackServiceTest {
 
-    @org.testng.annotations.Test
+    @org.junit.Test
     public void remainTest() {
         CashbackHackService service = new CashbackHackService();
 
@@ -18,7 +17,7 @@ public class CashbackHackServiceTest {
         assertEquals(actual, expected);
     }
 
-    @org.testng.annotations.Test
+    @org.junit.Test
     public void remainLimitTest() {
         CashbackHackService service = new CashbackHackService();
 
@@ -30,7 +29,7 @@ public class CashbackHackServiceTest {
         assertEquals(actual, expected);
     }
 
-    @org.testng.annotations.Test
+    @org.junit.Test
     public void belowLimitRemainTest() {
         CashbackHackService service = new CashbackHackService();
 
@@ -42,7 +41,7 @@ public class CashbackHackServiceTest {
         assertEquals(actual, expected);
     }
 
-    @org.testng.annotations.Test
+    @org.junit.Test
     public void aboveLimitRemainTest() {
         CashbackHackService service = new CashbackHackService();
 
@@ -54,7 +53,7 @@ public class CashbackHackServiceTest {
         assertEquals(actual, expected);
     }
 
-    @org.testng.annotations.Test
+    @org.junit.Test
     public void belowZeroRemainTest() {
         CashbackHackService service = new CashbackHackService();
 
@@ -66,7 +65,7 @@ public class CashbackHackServiceTest {
         assertEquals(actual, expected);
     }
 
-    @org.testng.annotations.Test
+    @org.junit.Test
     public void ZeroRemainTest() {
         CashbackHackService service = new CashbackHackService();
 
@@ -78,7 +77,7 @@ public class CashbackHackServiceTest {
         assertEquals(actual, expected);
     }
 
-    @org.testng.annotations.Test
+    @org.junit.Test
     public void remainTest2() {
         CashbackHackService service = new CashbackHackService();
 
